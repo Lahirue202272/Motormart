@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'pages.apps.PagesConfig',
     'cars.apps.CarsConfig',
     'ckeditor',
+    'accounts.apps.AccountsConfig',
     
 ]
 
