@@ -1,5 +1,6 @@
 {% extends 'base.html'%}
 
+{% block title %} | Dashboard {% endblock %}
 {% block content %}
 
 <!-- Sub banner start -->
@@ -19,6 +20,7 @@
 <!--   Dashboard Start   -->
 
 <div class="container mt-50 mb-50">
+	{% include 'includes/messages.html'%}
 	<div class="main-title" style="text-align:left !important;">
             <h1>Welcome <span>User</span></h1>
             <p>Here are the cars that you have inquired about</p>
