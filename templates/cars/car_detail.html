@@ -29,6 +29,7 @@
                 <div class="car-details-section">
                     <!-- Heading start -->
                     <div class="heading-car clearfix">
+                     {% include 'includes/messages.html'%}   
                         <div class="pull-left">
                             <h3>{{single_car.car_title}}</h3>
                             <h6>
@@ -219,7 +220,15 @@
                             </button>
                           </div>
                           <div class="modal-body">
-                            <form action="#">
+                            <form action="{% url 'inquiry'%}" method="POST">
+                               {% csrf_token %}
+                                {% if user.is_authenticated %}
+                                    <input type="hidden" name="user_id" value="{{user.id}}">
+                                {% else %}
+                                    <input type="hidden" name="user_id" value="0">
+                                {% endif %}
+
+                                <input type="hidden" name="car_id" value="{{single_car.id}}">
                                 <div class="form-group">
                                   <label for="name" class="col-form-label">Hello, My Name is</label>
                                   <div class="row">
@@ -241,7 +250,7 @@
                                     </div>
                                 
                                 <div class="form-group">
-                                  <input type="text" name="car_title" class="form-control" value="LAMBORGHINI HURACÁN." readonly>
+                                  <input type="text" name="car_title" class="form-control" value="{{single_car.car_title}}" readonly>
                                 </div>
                                
                                 <div class="form-group">
