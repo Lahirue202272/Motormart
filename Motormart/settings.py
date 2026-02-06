@@ -44,14 +44,13 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     'django.contrib.sites',
     'allauth',
-    'allauth.account',he
+    'allauth.account',
     'allauth.socialaccount',
     'pages.apps.PagesConfig',
     'cars.apps.CarsConfig',
     'ckeditor',
     'accounts.apps.AccountsConfig',
     'contacts.apps.ContactsConfig',
-    
     #provider
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.google',

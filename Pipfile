@@ -13,6 +13,7 @@ django-ckeditor = "*"
 django-multiselectfield = "*"
 requests-oauthlib = "*"
 django-allauth = {extras = ["socialaccount"], version = "*"}
+pillow = "*"
 
 [dev-packages]
 
