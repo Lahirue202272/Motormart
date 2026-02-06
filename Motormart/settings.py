@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 
 from pathlib import Path
 import os
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -24,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-yrq()0o6djo-lsv3p%h84pr(3zs0(_tw7-2$^@&oeo6m#grmqf'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -65,6 +66,7 @@ MIDDLEWARE = [
     'allauth.account.middleware.AccountMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'Motormart.urls'
@@ -90,15 +92,17 @@ WSGI_APPLICATION = 'Motormart.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'motormart_db',
-        'USER': 'postgres',
-        'PASSWORD': 'lahiru2000',
-        'HOST': 'localhost',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'motormart_db',
+#         'USER': 'postgres',
+#         'PASSWORD': 'lahiru2000',
+#         'HOST': 'localhost',
+#     }
+# }
+
+DATABASES = {'default': dj_database_url.config(default='postgres://postgres:lahiru2000@localhost/motormart_db')}
 
 
 # Password validation
@@ -165,3 +169,6 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER="balagamageniroshan@gmail.com"
 EMAIL_HOST_PASSWORD ="rvotaogljxxtzqsj"
 EMAIL_USE_TLS = True
+
+#whitenoise settings
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
