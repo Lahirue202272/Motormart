@@ -1,0 +1,836 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$pOvJFvswv8R2uvZEFsp3GN$4i0e0gmuxw4G4+MXpnGlVIpB0L6yTxSY6p5hK6KFTQM=",
+        "last_login": "2025-11-15T09:12:44.944Z",
+        "is_superuser": true,
+        "username": "djangoadmin",
+        "first_name": "Lahiru",
+        "last_name": "Niroshan",
+        "email": "developer.lahiru@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-10-19T16:28:15Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1000000$S3b80kMw4pio7Sa28PMWfR$kL0i84TsEeJf1wdIXNcyUGbXLLSeaRiXAWBg8EGZyx8=",
+        "last_login": "2025-10-25T18:14:48.388Z",
+        "is_superuser": false,
+        "username": "admindjango",
+        "first_name": "Lahiru",
+        "last_name": "Niroshan",
+        "email": "bg.lahiruniroshan@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-10-25T18:14:47.732Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!b3BbYr1LtBzhSoM340JLhkhgY20ARHAXfKeLNg2y",
+        "last_login": "2025-10-27T05:33:17.868Z",
+        "is_superuser": false,
+        "username": "lahiru",
+        "first_name": "Lahiru",
+        "last_name": "Niroshan",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-10-26T19:58:19.325Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "!MuxDn3ciI84CQd0d7QRFMpavtQ3GXfvsIZdVb7HA",
+        "last_login": "2025-11-13T19:18:21.341Z",
+        "is_superuser": false,
+        "username": "lahiru3",
+        "first_name": "Lahiru",
+        "last_name": "Niroshan",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-10-27T07:54:43.041Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "dbbew4rhy3xop5xwzzhe21tt1iklovnt",
+    "fields": {
+        "session_data": ".eJytkEFvhCAUhP_LOxMjKyB487bdpmkP7akxhiJbiSwYQZuu8b8Xu9lD771NMpP55r0VgldGWqmUn11sQ5RRB6hWeDsx_WjH4esaQ_201FC9rzBOXumQfLD-0zhA0MkooXKztQjGQelW-U63i57M2ejp5mwIlwxTjKkQGc0xx6xoEHy_HO2zfOg5rYvrK4v_QWA5zSinB0HLZkNwP0vOsdcuGiWj8a696Nj7LvwCbzrx_jwicWUadG-lLCN5QQUp0b5wMd1OhrNU-sP7IaVns3dgzDkjBeOCHwgRBWzN9gMB-nMA:1vD7eK:lIuOIHUk1AdBFY4efaHdQb6YlgDtMjH-ZgQzIsENFA0",
+        "expire_date": "2025-11-09T20:47:36.413Z"
+    }
+},
+{
+    "model": "sites.site",
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 1,
+    "fields": {
+        "provider": "facebook",
+        "provider_id": "",
+        "name": "Facebook login",
+        "client_id": "1160269868771430",
+        "secret": "f300417adad0ffe1627954a37077faff",
+        "key": "",
+        "settings": {},
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialapp",
+    "pk": 2,
+    "fields": {
+        "provider": "google",
+        "provider_id": "",
+        "name": "Google login",
+        "client_id": "784720758396-pp64fks4ljieungsetf0osftlg1sdolu.apps.googleusercontent.com",
+        "secret": "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",
+        "key": "",
+        "settings": {},
+        "sites": [
+            [
+                "localhost:8000"
+            ]
+        ]
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "lahiru"
+        ],
+        "provider": "facebook",
+        "uid": "1188643689824493",
+        "last_login": "2025-10-27T05:33:17.845Z",
+        "date_joined": "2025-10-26T19:58:19.346Z",
+        "extra_data": {
+            "id": "1188643689824493",
+            "name": "Lahiru Niroshan",
+            "last_name": "Niroshan",
+            "first_name": "Lahiru"
+        }
+    }
+},
+{
+    "model": "socialaccount.socialaccount",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "lahiru3"
+        ],
+        "provider": "google",
+        "uid": "116557643337407587229",
+        "last_login": "2025-11-13T19:18:21.296Z",
+        "date_joined": "2025-10-27T07:54:43.069Z",
+        "extra_data": {
+            "aud": "784720758396-pp64fks4ljieungsetf0osftlg1sdolu.apps.googleusercontent.com",
+            "azp": "784720758396-pp64fks4ljieungsetf0osftlg1sdolu.apps.googleusercontent.com",
+            "exp": 1763065100,
+            "iat": 1763061500,
+            "iss": "https://accounts.google.com",
+            "sub": "116557643337407587229",
+            "name": "Lahiru Niroshan",
+            "at_hash": "4n_crE5jJ9K1PjU5NKzTIw",
+            "picture": "https://lh3.googleusercontent.com/a/ACg8ocKpGA2ddR3tZiz8jJnaC2DeqzS51M8a7HJu96kRgXqPOUu8bg=s96-c",
+            "given_name": "Lahiru",
+            "family_name": "Niroshan"
+        }
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 2,
+    "fields": {
+        "first_name": "Martin",
+        "last_name": "Smith",
+        "designation": "Founder",
+        "photo": "photos/2025/10/19/avatar-11_nWcZTcw.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google.com",
+        "created_date": "2025-10-19T18:11:41.584Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 3,
+    "fields": {
+        "first_name": "Stone",
+        "last_name": "Carolyn",
+        "designation": "Creative Director",
+        "photo": "photos/2025/10/19/avatar-9.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google.com",
+        "created_date": "2025-10-19T18:13:12.122Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 4,
+    "fields": {
+        "first_name": "Brandon",
+        "last_name": "Miller",
+        "designation": "Co-Founder",
+        "photo": "photos/2025/10/19/avatar-1.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google.com",
+        "created_date": "2025-10-19T18:14:44.825Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 5,
+    "fields": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "designation": "CEO",
+        "photo": "photos/2025/10/19/avatar-12.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google.com",
+        "created_date": "2025-10-19T18:16:25.587Z"
+    }
+},
+{
+    "model": "pages.team",
+    "pk": 6,
+    "fields": {
+        "first_name": "Michelle",
+        "last_name": "Nelson",
+        "designation": "Support Manager",
+        "photo": "photos/2025/10/19/avatar-10.jpg",
+        "facebook_link": "https://facebook.com",
+        "twitter_link": "https://twitter.com",
+        "google_plus_link": "https://google.com",
+        "created_date": "2025-10-19T18:17:36.658Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 1,
+    "fields": {
+        "car_title": "2017 Ferrari 488 GTB",
+        "state": "TX",
+        "city": "Austin",
+        "color": "White",
+        "model": "488 GTB",
+        "year": 2017,
+        "condition": "Used",
+        "price": "40000.00",
+        "description": "<p>The&nbsp;<strong>Ferrari 488</strong>&nbsp;(Type F142M) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear_mid-engine,_rear-wheel_drive_layout\" title=\"Rear mid-engine, rear-wheel drive layout\">mid-engine</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Sports_car\" title=\"Sports car\">sports car</a>&nbsp;produced by the Italian automobile manufacturer&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari\" title=\"Ferrari\">Ferrari</a>. The car replaced the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_458\" title=\"Ferrari 458\">458</a>, being the first mid-engine Ferrari to use a turbocharged V8 since the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F40\" title=\"Ferrari F40\">F40</a>. It was succeeded by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ferrari_F8\" title=\"Ferrari F8\">Ferrari F8</a>.</p>\r\n\r\n<p>The car is powered by a 3.9-litre&nbsp;<a href=\"https://en.wikipedia.org/wiki/Twin-turbocharged\" title=\"Twin-turbocharged\">twin-turbocharged</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/V8_engine\" title=\"V8 engine\">V8 engine</a>, smaller in displacement but generating a higher power output than the 458&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Naturally_aspirated_engine\" title=\"Naturally aspirated engine\">naturally aspirated engine</a>. The 488 GTB was named &quot;The Supercar of the Year 2015&quot; by car magazine&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Top_Gear_(magazine)\" title=\"Top Gear (magazine)\">Top Gear</a></em>, as well as becoming&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Motor_Trend\" title=\"Motor Trend\">Motor Trend</a></em>&#39;s 2017 &quot;Best Driver&#39;s Car&quot;.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-12\">[12]</a>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jeremy_Clarkson\" title=\"Jeremy Clarkson\">Jeremy Clarkson</a>&nbsp;announced the 488 Pista as his 2019 Supercar of the Year.<a href=\"https://en.wikipedia.org/wiki/Ferrari_488#cite_note-13\">[13]</a></p>",
+        "car_photo": "photos/2025/10/20/1902536891_Sl4JrKO.jpg",
+        "car_photo_1": "photos/2025/10/20/1902536917_X7946Xe.jpg",
+        "car_photo_2": "photos/2025/10/20/1902537043_KJ8Vjql.jpg",
+        "car_photo_3": "photos/2025/10/20/1902537077_GJLjIcu.jpg",
+        "car_photo_4": "photos/2025/10/20/1902537082_6eWq8vH.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Power Steering,Reversing Camera,Auto Start/Stop,Wind Deflector,Bluetooth Handset",
+        "body_style": "Sport",
+        "engine": "3.4L Mid-Engine V6",
+        "transmission": "Automatic",
+        "interior": "Grey",
+        "miles": 10000,
+        "doors": "3",
+        "passengers": 2,
+        "vin_no": "WP0AB2E81EK1788547",
+        "milage": 5,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2025-10-20T14:13:29Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 2,
+    "fields": {
+        "car_title": "2017 Ford Edge",
+        "state": "TX",
+        "city": "Dallas",
+        "color": "Black",
+        "model": "Edge",
+        "year": 2017,
+        "condition": "Used",
+        "price": "25000.00",
+        "description": "<p>The&nbsp;<strong>Ford Edge</strong>&nbsp;is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Crossover_(automobile)\" title=\"Crossover (automobile)\">crossover SUV</a>&nbsp;manufactured and marketed by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>&nbsp;introduced for the 2007 model year as the first&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mid-size_CUV\" title=\"Mid-size CUV\">mid-size CUV</a>&nbsp;marketed by Ford in North America. Deriving its name from a trim package of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Ranger_(Americas)\" title=\"Ford Ranger (Americas)\">Ford Ranger</a>, the Ford Edge is positioned between the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Escape\" title=\"Ford Escape\">Ford Escape</a>&nbsp;and the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Explorer\" title=\"Ford Explorer\">Ford Explorer</a>&nbsp;within the Ford product line.</p>\r\n\r\n<p>Production of the North American Edge ended in April 2024,<a href=\"https://en.wikipedia.org/wiki/Ford_Edge#cite_note-3\">[3]</a>&nbsp;with the third generation Edge (dubbed the Edge L), launched in 2023, being produced and sold exclusively in China.</p>",
+        "car_photo": "photos/2025/10/20/1901478607.jpg",
+        "car_photo_1": "photos/2025/10/20/1901478618.jpg",
+        "car_photo_2": "photos/2025/10/20/1901478646.jpg",
+        "car_photo_3": "photos/2025/10/20/1901478672.jpg",
+        "car_photo_4": "photos/2025/10/20/1901478687.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Reversing Camera,Bluetooth Handset",
+        "body_style": "SUV",
+        "engine": "3.7 L Duratec V6",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 15000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "WP0ATYHK1788547",
+        "milage": 8,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2025-10-20T14:14:22Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 3,
+    "fields": {
+        "car_title": "2017 Ford F-250 Super Duty",
+        "state": "NY",
+        "city": "Ohio",
+        "color": "Black",
+        "model": "F-250",
+        "year": 2017,
+        "condition": "Used",
+        "price": "30000.00",
+        "description": "<p>The&nbsp;<strong>Ford Super Duty</strong>&nbsp;(also known as the&nbsp;<strong>Ford F-Series Super Duty</strong>) is a series of heavy-duty pickup trucks produced by the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Motor_Company\" title=\"Ford Motor Company\">Ford Motor Company</a>&nbsp;since the 1999 model year. Slotted above the consumer-oriented Ford&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-Series\" title=\"Ford F-Series\">F-150</a>, the Super Duty trucks are an expansion of the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_F-Series\" title=\"Ford F-Series\">Ford F-Series</a>&nbsp;range, from F-250 to the F-600. The F-250 through F-450 are offered as pickup trucks, while the F-350 through F-600 are offered as&nbsp;<a href=\"https://en.wikipedia.org/wiki/Chassis_cab\" title=\"Chassis cab\">chassis cabs</a>.</p>\r\n\r\n<p>Rather than adapting the lighter-duty F-150 truck for heavier use, Super Duty trucks have been designed as a dedicated variant of the Ford F-Series. The heavier-duty chassis components allow for heavier payloads and towing capabilities. With a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Gross_vehicle_weight_rating\" title=\"Gross vehicle weight rating\">GVWR</a>&nbsp;over 8,500&nbsp;lb (3,900&nbsp;kg), Super Duty pickups are&nbsp;<a href=\"https://en.wikipedia.org/wiki/Truck_classification\" title=\"Truck classification\">Class 2 and 3</a>&nbsp;trucks, while chassis-cab trucks are offered in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Truck_classification\" title=\"Truck classification\">Classes 3, 4, 5, and 6</a>. The model line also offers&nbsp;<a href=\"https://en.wikipedia.org/wiki/Ford_Power_Stroke_engine\" title=\"Ford Power Stroke engine\">Ford Power Stroke</a>&nbsp;V8 diesel engines as an option.</p>",
+        "car_photo": "photos/2025/10/20/1894300905.jpg",
+        "car_photo_1": "photos/2025/10/20/1894300894.jpg",
+        "car_photo_2": "photos/2025/10/20/1894300920.jpg",
+        "car_photo_3": "photos/2025/10/20/1900155012.jpg",
+        "car_photo_4": "photos/2025/10/20/1900155133.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Seat Heating,Alarm System,Reversing Camera",
+        "body_style": "SUV",
+        "engine": "6.8 L Triton V10",
+        "transmission": "Manual",
+        "interior": "Black",
+        "miles": 13000,
+        "doors": "4",
+        "passengers": 4,
+        "vin_no": "WP0AB2E81EK17843",
+        "milage": 10,
+        "fuel_type": "Diesel",
+        "no_of_owners": "1",
+        "is_featured": false,
+        "created_date": "2025-10-20T14:21:14Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 4,
+    "fields": {
+        "car_title": "2017 Jaguar F-PACE",
+        "state": "TX",
+        "city": "Austin",
+        "color": "Green",
+        "model": "F-PACE",
+        "year": 2017,
+        "condition": "Used",
+        "price": "50000.00",
+        "description": "<p>The&nbsp;<strong>Jaguar F-Pace</strong>&nbsp;(X761) is a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_crossover_SUV\" title=\"Compact crossover SUV\">compact luxury crossover SUV</a>&nbsp;made by&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>, a British&nbsp;<a href=\"https://en.wikipedia.org/wiki/Automotive_industry\" title=\"Automotive industry\">car manufacturer</a>, under their&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Cars\" title=\"Jaguar Cars\">Jaguar marque</a>. It is the first Jaguar SUV. It was formally announced at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/2015_North_American_International_Auto_Show\" title=\"2015 North American International Auto Show\">2015 North American International Auto Show</a>&nbsp;in Detroit, with sales commencing in 2016 following an unveiling at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/2015_International_Motor_Show_Germany\" title=\"2015 International Motor Show Germany\">2015 International Motor Show Germany</a>&nbsp;in Frankfurt.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-5\">[5]</a></p>\r\n\r\n<p>The design of the F-Pace is based on the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_C-X17\" title=\"Jaguar C-X17\">Jaguar C-X17</a>&nbsp;concept car, which was unveiled on September 9, 2013, at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/International_Motor_Show_Germany\" title=\"International Motor Show Germany\">Frankfurt Motor Show</a>.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-BBC_News_120115-6\">[6]</a><a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-7\">[7]</a>&nbsp;The 2017 Jaguar F-Pace has been named the honorary winner of the 2017 World Car of the Year and World Car Design of the Year Awards at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/New_York_International_Auto_Show\" title=\"New York International Auto Show\">New York International Auto Show</a>.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-8\">[8]</a><a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-9\">[9]</a>&nbsp;The F-Pace is built at&nbsp;<a href=\"https://en.wikipedia.org/wiki/Jaguar_Land_Rover\" title=\"Jaguar Land Rover\">Jaguar Land Rover</a>&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Solihull_plant\" title=\"Solihull plant\">Solihull plant</a>&nbsp;along with the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Range_Rover_Velar\" title=\"Range Rover Velar\">Range Rover Velar</a>&nbsp;and employs an additional 1,300 workers.<a href=\"https://en.wikipedia.org/wiki/Jaguar_F-Pace#cite_note-BBC_News_120115-6\">[6]</a></p>",
+        "car_photo": "photos/2025/10/20/1902932542.jpg",
+        "car_photo_1": "photos/2025/10/20/1902932503.jpg",
+        "car_photo_2": "photos/2025/10/20/1902932514.jpg",
+        "car_photo_3": "photos/2025/10/20/1902932528.jpg",
+        "car_photo_4": "",
+        "features": "Cruise Control,Audio Interface,Airbags,Power Steering,Reversing Camera,Direct Fuel Injection",
+        "body_style": "SUV",
+        "engine": "3.0 L AJ126 V6",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 12500,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "WP0AB2E81EKTY",
+        "milage": 7,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2025-10-20T14:26:22Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 5,
+    "fields": {
+        "car_title": "2018 Toyota 4Runner",
+        "state": "TX",
+        "city": "Ohio",
+        "color": "silver",
+        "model": "4Runner",
+        "year": 2018,
+        "condition": "Used",
+        "price": "55000.00",
+        "description": "<p>The&nbsp;<strong>Toyota 4Runner</strong>&nbsp;is an&nbsp;<a href=\"https://en.wikipedia.org/wiki/SUV\" title=\"SUV\">SUV</a>&nbsp;manufactured by the Japanese automaker&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota\" title=\"Toyota\">Toyota</a>&nbsp;and marketed globally since 1984, across six generations. In Japan, it was marketed as the&nbsp;<strong>Toyota Hilux Surf</strong>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Japanese_language\" title=\"Japanese language\">Japanese</a>:&nbsp;トヨタ・ハイラックスサーフ,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hepburn_romanization\" title=\"Hepburn romanization\">Hepburn</a>:&nbsp;<em>Toyota Hairakkususāfu</em>)&nbsp;and was withdrawn from the market in 2009. The original 4Runner was a&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_SUV\" title=\"Compact SUV\">compact SUV</a>&nbsp;and little more than a Toyota&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Hilux\" title=\"Toyota Hilux\">Hilux</a>&nbsp;pickup truck with a fiberglass shell over the bed, but the model has since undergone significant independent development into a cross between a compact and a mid-size SUV. All 4Runners have been built in Japan at Toyota&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tahara_plant\" title=\"Tahara plant\">plant</a>&nbsp;in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Tahara,_Aichi\" title=\"Tahara, Aichi\">Tahara, Aichi</a>, or at the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hino_Motors\" title=\"Hino Motors\">Hino Motors</a>&nbsp;(a Toyota subsidiary) plant in&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hamura\" title=\"Hamura\">Hamura</a>.</p>\r\n\r\n<p>The name &quot;4Runner&quot; was created by copywriter Robert Nathan with the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Saatchi_%26_Saatchi\" title=\"Saatchi &amp; Saatchi\">Saatchi &amp; Saatchi</a>&nbsp;advertising company as a play on the term &quot;forerunner&quot;. The agency held contests to invent new names for Toyota&#39;s forthcoming vehicles. According to Toyota, the &quot;4&quot; described the vehicle&#39;s 4-wheel drive system while &quot;Runner&quot; was a reference to its all-terrain capabilities and how it could &quot;run&quot; off-road.<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-1\">[1]</a></p>\r\n\r\n<p>For some markets, the Hilux Surf was replaced in 2005 by the lower cost but similar&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Fortuner\" title=\"Toyota Fortuner\">Fortuner</a>, which is based on the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Hilux\" title=\"Toyota Hilux\">Hilux</a>&nbsp;platform.</p>\r\n\r\n<p>As of 2021, the 4Runner is marketed in the many countries in North and South America. Many markets that did not receive the 4Runner, such as Europe and the Middle East, instead received the similarly designed&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_Prado\" title=\"Toyota Land Cruiser Prado\">Land Cruiser Prado</a>, another SUV that shared many of the same components.</p>\r\n\r\n<p>The 4Runner came in at number five in a 2019 study by&nbsp;<a href=\"https://en.wikipedia.org/wiki/ISeeCars.com\" title=\"ISeeCars.com\">iSeeCars.com</a>&nbsp;ranking the longest-lasting vehicles in the US. The 4Runner had 3.9&nbsp;percent of vehicles over 200,000 miles (320,000&nbsp;km), according to the study.<a href=\"https://en.wikipedia.org/wiki/Toyota_4Runner#cite_note-2\">[2]</a></p>",
+        "car_photo": "photos/2025/10/22/1893633875.jpg",
+        "car_photo_1": "photos/2025/10/22/1893633879.jpg",
+        "car_photo_2": "photos/2025/10/22/1893633884.jpg",
+        "car_photo_3": "photos/2025/10/22/1896836883.jpg",
+        "car_photo_4": "photos/2025/10/22/1896836887.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Air Conditioning,Direct Fuel Injection",
+        "body_style": "SUV",
+        "engine": "2.4 L 22R I4 (RN38)",
+        "transmission": "Automatic",
+        "interior": "Black",
+        "miles": 15000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "WP0AB2E81EK1787895",
+        "milage": 8,
+        "fuel_type": "Petrol",
+        "no_of_owners": "1",
+        "is_featured": true,
+        "created_date": "2025-10-22T18:59:39Z"
+    }
+},
+{
+    "model": "cars.car",
+    "pk": 6,
+    "fields": {
+        "car_title": "2018 Toyota Corolla",
+        "state": "NY",
+        "city": "Dallas",
+        "color": "White",
+        "model": "Corolla",
+        "year": 2018,
+        "condition": "Used",
+        "price": "30000.00",
+        "description": "<p>The&nbsp;<strong>Toyota Corolla</strong>&nbsp;(<a href=\"https://en.wikipedia.org/wiki/Japanese_language\" title=\"Japanese language\">Japanese</a>:&nbsp;トヨタ・カローラ,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Hepburn_romanization\" title=\"Hepburn romanization\">Hepburn</a>:&nbsp;<em>Toyota Karōra</em>)&nbsp;is a series of&nbsp;<a href=\"https://en.wikipedia.org/wiki/Compact_car\" title=\"Compact car\">compact cars</a>&nbsp;(formerly&nbsp;<a href=\"https://en.wikipedia.org/wiki/Subcompact_car\" title=\"Subcompact car\">subcompact</a>) manufactured and marketed globally by the Japanese automaker&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Motor_Corporation\" title=\"Toyota Motor Corporation\">Toyota Motor Corporation</a>. Introduced in 1966, the Corolla has been the world&#39;s&nbsp;<a href=\"https://en.wikipedia.org/wiki/List_of_best-selling_automobiles\" title=\"List of best-selling automobiles\">best-selling automobile of all time</a>&nbsp;since 1997, when it surpassed the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Volkswagen_Beetle\" title=\"Volkswagen Beetle\">Volkswagen Beetle</a>.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-1\">[1]</a>&nbsp;Toyota reached the milestone of 50 million Corollas sold over twelve generations in 2021.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-50million-2\">[2]</a></p>\r\n\r\n<p>The name&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Corolla_(headgear)\" title=\"Corolla (headgear)\">Corolla</a></em>&nbsp;is part of Toyota&#39;s naming tradition of using names derived from the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Crown\" title=\"Toyota Crown\">Toyota Crown</a>&nbsp;for sedans, with&nbsp;<em>&quot;<a href=\"https://en.wiktionary.org/wiki/corolla\" title=\"wikt:corolla\">corolla</a>&quot;</em>&nbsp;<a href=\"https://en.wikipedia.org/wiki/Latin\" title=\"Latin\">Latin</a>&nbsp;for &quot;small crown&quot;.<a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla#cite_note-3\">[3]</a>&nbsp;The Corolla has always been exclusive in Japan to&nbsp;<em><a href=\"https://en.wikipedia.org/wiki/Toyota_Corolla_Store\" title=\"Toyota Corolla Store\">Toyota Corolla Store</a></em>&nbsp;locations, and manufactured in Japan with a twin, called the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Sprinter\" title=\"Toyota Sprinter\">Toyota Sprinter</a>&nbsp;until 2000. From 2006 to 2018 in Japan and much of the world, and from 2018 to 2020 in Taiwan, the hatchback companion had been called the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Toyota_Auris\" title=\"Toyota Auris\">Toyota Auris</a>.</p>\r\n\r\n<p>Early models were mostly&nbsp;<a href=\"https://en.wikipedia.org/wiki/Rear-wheel_drive\" title=\"Rear-wheel drive\">rear-wheel drive</a>, while later models have been&nbsp;<a href=\"https://en.wikipedia.org/wiki/Front-wheel_drive\" title=\"Front-wheel drive\">front-wheel drive</a>.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Four-wheel_drive\" title=\"Four-wheel drive\">Four-wheel drive</a>&nbsp;versions have also been produced, and it has undergone several major redesigns. The Corolla&#39;s traditional competitors have been the&nbsp;<a href=\"https://en.wikipedia.org/wiki/Nissan_Sunny\" title=\"Nissan Sunny\">Nissan Sunny</a>, introduced the same year as the Corolla in Japan and the later&nbsp;<a href=\"https://en.wikipedia.org/wiki/Nissan_Sentra\" title=\"Nissan Sentra\">Nissan Sentra</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Subaru_Leone\" title=\"Subaru Leone\">Subaru Leone</a>,&nbsp;<a href=\"https://en.wikipedia.org/wiki/Honda_Civic\" title=\"Honda Civic\">Honda Civic</a>&nbsp;and&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mitsubishi_Lancer\" title=\"Mitsubishi Lancer\">Mitsubishi Lancer</a>. The Corolla&#39;s chassis designation code is &quot;E&quot;, as described in&nbsp;<a href=\"https://en.wikipedia.org/wiki/List_of_Toyota_model_codes\" title=\"List of Toyota model codes\">Toyota&#39;s chassis and engine codes.</a></p>",
+        "car_photo": "photos/2025/10/22/1900893299.jpg",
+        "car_photo_1": "photos/2025/10/22/1900893311.jpg",
+        "car_photo_2": "photos/2025/10/22/1900893319.jpg",
+        "car_photo_3": "photos/2025/10/22/1900893329.jpg",
+        "car_photo_4": "photos/2025/10/22/1900893391.jpg",
+        "features": "Cruise Control,Audio Interface,Airbags,Power Steering",
+        "body_style": "Car",
+        "engine": "1.8L inline 4-cylinder",
+        "transmission": "Automatic",
+        "interior": "White",
+        "miles": 10000,
+        "doors": "5",
+        "passengers": 5,
+        "vin_no": "WP0AB2E81EKTY7889",
+        "milage": 10,
+        "fuel_type": "Petrol",
+        "no_of_owners": "2",
+        "is_featured": true,
+        "created_date": "2025-10-22T19:10:24Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 1,
+    "fields": {
+        "first_name": "Lahiru",
+        "last_name": "Niroshan",
+        "car_id": 2,
+        "customer_need": "I'd like to know your best price for this",
+        "car_title": "2017 Ford Edge",
+        "city": "Middeniya",
+        "state": "southern",
+        "email": "lahiru@gmail.com",
+        "phone": "0718787627",
+        "message": "i need more information about this car",
+        "user_id": 1,
+        "create_date": "2025-11-14T02:02:41.592Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 2,
+    "fields": {
+        "first_name": "Shabnam",
+        "last_name": "Sajida",
+        "car_id": 5,
+        "customer_need": "I'd like to test drive this",
+        "car_title": "2018 Toyota 4Runner",
+        "city": "Rathnapura",
+        "state": "Sabaragamuwa",
+        "email": "developer.lahiru@gmail.com",
+        "phone": "0718787627",
+        "message": "i need drive this car",
+        "user_id": 1,
+        "create_date": "2025-11-14T02:08:51.572Z"
+    }
+},
+{
+    "model": "contacts.contact",
+    "pk": 3,
+    "fields": {
+        "first_name": "Lahiru",
+        "last_name": "Niroshan",
+        "car_id": 1,
+        "customer_need": "I'm interested in this",
+        "car_title": "2017 Ferrari 488 GTB",
+        "city": "Middeniya",
+        "state": "southern",
+        "email": "developer.lahiru@gmail.com",
+        "phone": "",
+        "message": "",
+        "user_id": 1,
+        "create_date": "2025-11-15T14:10:57.793Z"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-10-19T16:32:31.420Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "object_id": "1",
+        "object_repr": "djangoadmin",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2025-10-19T17:15:18.174Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Lahiru",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-10-19T18:07:18.996Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Lahiru",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Photo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-10-19T18:08:42.610Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "1",
+        "object_repr": "Lahiru",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2025-10-19T18:11:41.587Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "2",
+        "object_repr": "Martin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2025-10-19T18:13:12.126Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "3",
+        "object_repr": "Stone",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2025-10-19T18:14:44.827Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "4",
+        "object_repr": "Brandon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2025-10-19T18:16:25.589Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "5",
+        "object_repr": "John",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2025-10-19T18:17:36.661Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "pages",
+            "team"
+        ],
+        "object_id": "6",
+        "object_repr": "Michelle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2025-10-20T08:43:35.685Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "1",
+        "object_repr": "2017 Ferrari 488 GTB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2025-10-20T08:51:05.069Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "2",
+        "object_repr": "2017 Ford Edge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2025-10-20T08:56:13.263Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2025-10-20T09:00:27.296Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "4",
+        "object_repr": "2017 Jaguar F-PACE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2025-10-20T09:17:38.115Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "3",
+        "object_repr": "2017 Ford F-250 Super Duty",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is featured\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2025-10-22T13:40:20.421Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "5",
+        "object_repr": "2018 Toyota 4Runner",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2025-10-22T13:45:01.143Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "cars",
+            "car"
+        ],
+        "object_id": "6",
+        "object_repr": "2018 Toyota Corolla",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2025-10-26T19:48:32.926Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "1",
+        "object_repr": "Facebook login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2025-10-26T19:50:10.596Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2025-10-27T07:52:40.535Z",
+        "user": [
+            "djangoadmin"
+        ],
+        "content_type": [
+            "socialaccount",
+            "socialapp"
+        ],
+        "object_id": "2",
+        "object_repr": "Google login",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
