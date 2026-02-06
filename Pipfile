@@ -9,9 +9,10 @@ gunicorn = "*"
 psycopg2-binary = "*"
 dj-database-url = "*"
 whitenoise = "*"
-django-allauth = "*"
 django-ckeditor = "*"
 django-multiselectfield = "*"
+requests-oauthlib = "*"
+django-allauth = {extras = ["socialaccount"], version = "*"}
 
 [dev-packages]
 
