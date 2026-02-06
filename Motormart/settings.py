@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-yrq()0o6djo-lsv3p%h84pr(3zs0(_tw7-2$^@&oeo6m#grmqf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['boiling-cove-86376-f26ebb1c4ecc.herokuapp.com','motomartapp.co', 'www.motomartapp.co']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     'django.contrib.sites',
     'allauth',
-    'allauth.account',
+    'allauth.account',he
     'allauth.socialaccount',
     'pages.apps.PagesConfig',
     'cars.apps.CarsConfig',
