@@ -52,7 +52,7 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'contacts.apps.ContactsConfig',
     
-    #providers
+    #provider
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.google',
 ]
