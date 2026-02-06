@@ -9,11 +9,11 @@ gunicorn = "*"
 psycopg2-binary = "*"
 dj-database-url = "*"
 whitenoise = "*"
-django-ckeditor = "*"
 django-multiselectfield = "*"
 requests-oauthlib = "*"
 django-allauth = {extras = ["socialaccount"], version = "*"}
 pillow = "*"
+django-ckeditor = "*"
 
 [dev-packages]
 
